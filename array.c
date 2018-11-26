@@ -6905,8 +6905,8 @@ Init_Array(void)
     rb_define_method(rb_cArray, "bsearch_index", rb_ary_bsearch_index, 0);
     rb_define_method(rb_cArray, "any?", rb_ary_any_p, -1);
 /*    rb_define_method(rb_cArray, "all?", rb_ary_all_p, -1); */
-    rb_define_method(rb_cArray, "none?", rb_ary_none_p, -1);
-    rb_define_method(rb_cArray, "one?", rb_ary_one_p, -1);
+/*    rb_define_method(rb_cArray, "none?", rb_ary_none_p, -1); */
+/*    rb_define_method(rb_cArray, "one?", rb_ary_one_p, -1); */
     rb_define_method(rb_cArray, "dig", rb_ary_dig, -1);
     rb_define_method(rb_cArray, "sum", rb_ary_sum, -1);
 
